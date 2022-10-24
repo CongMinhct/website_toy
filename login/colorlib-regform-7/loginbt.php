@@ -107,7 +107,7 @@
                 ?>
                     <script>
                         alert("Login success");
-                        window.location.href = "../../index2x.php";
+                        window.location.href = "../../index.php";
                     </script>  
                 <?php
             }

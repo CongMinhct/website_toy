@@ -108,7 +108,7 @@
 			$result = mysqli_query($connect, $sql);
 			if($result){
 				echo "<script>alert('New successful product added') </script>";
-				echo "<script> window.location.href = '../../index2x.php' </script>";
+				echo "<script> window.location.href = '../../index.php' </script>";
 				}
 			else{
 				echo "<script>alert('Add new error') </script";

@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<?php 
-    $connect = mysqli_connect('localhost','root','','play_music_website');
+    $connect = mysqli_connect('3.132.234.157','minhmod_user','123@123a','minhmod_db');
     if(!$connect)
     {
       echo "Kết nối thất bại";

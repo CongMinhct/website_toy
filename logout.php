@@ -3,5 +3,5 @@
     session_destroy();
 ?>
 <script>
-    window.location.href = "index2x.php";
+    window.location.href = "index.php";
 </script>

@@ -26,7 +26,7 @@
 		$check_song = mysqli_num_rows($result);
 		if ($check_song > 0) {
 			echo "<script>alert('Song already in the cart')</script>";
-			echo "<script>window.open('index2x.php','_self')</script>";
+			echo "<script>window.open('index.php','_self')</script>";
 		}
 		else {
 			$date = date('y-m-d');
@@ -34,7 +34,7 @@
 			$result = mysqli_query($connect, $sql);	
 			if ($result) {
 				echo "<script>alert('Song added to the cart successfully!')</script>";
-				echo "<script>window.open('index2x.php','_self')</script>";
+				echo "<script>window.open('index.php','_self')</script>";
 			}
 			else {
 				echo "<script>alert('Error')</script>";
